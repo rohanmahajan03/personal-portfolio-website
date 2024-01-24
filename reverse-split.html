@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Rohan Mahajan
+    </title>
+    <link rel="stylesheet" href="styles.css">  
+
+</head>
+
+<body>
+    <header class = reverse-split-header>        
+        <nav>
+            <ul>
+                <li class = "logo"><a href="index.html">Rohan Mahajan Logo</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="locations.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Reverse Split Backtesting Project</h1>
+    </header>
+    <section>
+        <h1 class = "project-standard">
+            Description: 
+        </h1>
+        <h4 class = 'project-description-body'>
+            The Reverse Split Backtesting Projec was inspired by a losing options play. I had an underlying assumption that a stock's price would go up by my option's expiration date.
+            However, the stock had announced a reverse split. I thought nothing of this, and held the position through the reverse split. Unsurprisingly, but surprisingly to me back then,
+            the stock went down and my position went against me. A couple of months later, I was thinking back to this trade and particularily how the move went against me on the day of
+            the split. So, I decided to see if there was a trend with these stocks that were reverse spliting and giant price drops on the day of the split, and this project represents where I'm at so
+            far in terms of backtesting this potential system. However, I am not sure if this system will ever be viable as stocks that reverse split are often hard-to-borrow which means that they have
+            high borrowing costs.
+            <br>
+            <br>
+            Technologies used: Python, pandas, numpy, seaborn, matplotlib, requests
+            <br>
+            <br>
+            <a href="https://github.com/rohanmahajan03/reversesplit">
+                <button class = "github-button" style = "background: linear-gradient(270deg, blue, green);">
+                    GitHub
+                </button>
+            </a>
+        </h4>
+    </section>
+    <section style = "margin-top: -5%; ">
+        <p style = "margin-left: 10%; font: helvetica;">Graph of an example company since its reverse split
+        </p> 
+        <p style = "margin-left: 30%; font: helvetica;"> Dataframe used with strategy results in final column</p>
+        <!-- <img src="Tensorflow-confusion.png" alt="tensorflow confusion matrix"> -->       
+        
+        <!-- <img src="Log-reg-confusion.png" alt="logistic regression confusion matrix"> -->
+    </section>
+    <section style = 'margin-top: -20%;'>
+        <img style = " margin-left: 3%;" src="plot-ticker.png" alt="graph of plot-ticker function">
+        <img style = "margin-left: 12%;" src="df-reverse.png" alt="dataframe used for short strategy">
+    </section>
+    <footer>footer</footer>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+body{
+    background: rgb(9, 4, 39);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.projects{
+    background: rgb(2, 2, 67);
+    background-color: rgb(2, 2, 69);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.projects a{
+    text-decoration: none;
+    color: rgb(169, 168, 168);  
+}
+.projects figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+.projects figure img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    box-shadow: white;
+    width: 200px;
+    height: 200px;
+}
+.contact-header{
+    background: black;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(270deg, gray, black);
+    color: white;
+    font-size: 18px;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+header{
+    background: black; 
+    background-image: url("3.png"); 
+    height: 400px;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    /*margin: 20px 40px 10px 50px;*/
+    padding: 20px 20px;
+    text-align: left;
+    font: helvetica;
+
+}
+.resume-button{
+    height: 8vh;
+    width: 20vw;
+    border-radius: 30px;
+    background: linear-gradient(270deg, blue, gray);
+    color: white;
+    font-size: 18px;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+    margin-left: 25vw;
+}
+
+.github-button{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 30px;
+    background: linear-gradient(270deg, blue, purple);
+    color: white;
+    font-size: 18px;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.linkedin-button{
+    height: 8vh;
+    width: 20vw;
+    border-radius: 30px;
+    background: linear-gradient(270deg, blue, gray);
+    color: white;
+    font-size: 18px;
+    border: 0 ;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20vw;
+}
+
+.contact-header{
+    background-image: url("contact-banner.jpeg");
+    height: 300px;
+}
+
+.project-header{
+    background-image: url("projects-banner.png");
+    height: 300px;
+}
+.music-header{
+    background-image: url("music-header-img.png");
+}
+.music-header h1{
+    color: black;
+    align-items: center;
+    margin: 20% 20% 40% 25%;
+}
+.fake-news-header{
+    background-image: url("fake-news-header-img2.png");
+}
+.reverse-split-header{
+    background-image: url("reverse-split-header-img.png")
+}
+
+header .logo a{
+    background-image: url("rr-no-background.png");
+    background-size: 75px;
+    background-repeat: no-repeat;
+    /*background:red;*/
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    text-indent: -9999999px;
+    position: relative;
+}
+section{
+    background: black;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 320px;
+}
+
+.methodology-section{
+    margin-top: -150px;
+}
+footer{
+    background: black;
+    padding: 10px 20px;
+    text-align: center;
+}
+div{
+    background: blue;
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+
+}
+h2 {
+    display:block;
+    margin: 0 auto;    
+}
+section .project-standard{
+   margin: 0px;
+}
+.project-description-body{
+    margin: 50px 0 20px -75px;
+}
+.project-method-body{
+    margin: 50px 0 20px -90px;
+}
+.project-learnings-body{
+    margin: 50px 0 10px -105px;
+}
+.project-potential-body{
+    margin: 50px 0 20px -210px;
+}
+
+img.self-photo{
+    display:block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+
+}
+p{
+    display: block;
+}
+.abt-me{
+    text-align: center;
+}
+  
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: None;
+}
+li:first-child{
+    margin-left: 0;
+}
+li{
+    display: inline-block;
+    /* background-color: gray; */
+    margin-left: 20%;
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+
+}
+li a{
+    text-decoration: None;
+    color: rgb(192, 189, 189);
+}
+footer{
+    background: rgb(41, 40, 40);
+    /* padding: 10px 20px; */
+    width: 100%;
+}
+
+li:hover{
+    background: white;
+}
+a:hover{
+    text-decoration: none;
+    /* color: red; */
+}
+
+p.writing-paragraphs{
+    margin-top: 90px;
+    margin-left: -190px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Rohan Mahajan
+    </title>
+    <link rel="stylesheet" href="styles.css">  
+
+</head>
+
+<body>
+    <header class = fake-news-header>        
+        <nav>
+            <ul>
+                <li class = "logo"><a href="index.html">Rohan Mahajan Logo</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="locations.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>News Verification System</h1>
+    </header>
+    <section>
+        <h1 class = "project-standard">
+            Description: 
+        </h1>
+        <h4 class = 'project-description-body'>
+            For this project, I used Tensorflow and Logistic Regression to predict whether news was real or fake from a real vs. fake news dataset. This project served as an introduction
+            to natural language processing for me, and going through the steps proved very unintuitive, so lots of time was spent on research. After the initial preprocessing of data, I tokenized
+            the data, removed stop words, and padded the texts to make each one the same length. Then, I generated word embeddings and then input the embeddings matrix created from the word
+            embeddings into my Tensorflow model. As far as the logistic regression model goes, I utilized a TF-IDF vectorizer and then trained and tested the model. Both of these models actually worked 
+            out really well and out of my projects, this is the one that had some of the best results.
+            <br>
+            <br>
+            Technologies used: Python, pandas, numpy, Tensorflow, matplotlib, scikit-learn
+            <br>
+            <br>
+            <br>
+            <a href="https://github.com/rohanmahajan03/fake-news-detection">
+                <button class = "github-button">
+                    GitHub
+                </button>
+            </a>
+        </h4>
+    </section>
+    <section style = "margin-top: -5%; ">
+        <p style = "margin-left: 15%; font: helvetica;">Confusion matrix for Tensorflow model
+        </p> 
+        <p style = "margin-left: 25%; font: helvetica;"> Confusion matrix for Logistic Regression Model</p>
+        <!-- <img src="Tensorflow-confusion.png" alt="tensorflow confusion matrix"> -->       
+        
+        <!-- <img src="Log-reg-confusion.png" alt="logistic regression confusion matrix"> -->
+    </section>
+    <section style = 'margin-top: -20%;'>
+        <img style = " margin-left: 11%;" src="Tensorflow-confusion.png" alt="tensorflow confusion matrix">
+        <img style = "margin-left: 15%;" src="Log-reg-confusion.png" alt="logistic regression confusion matrix">
+    </section>
+    <footer>footer</footer>
+</body>
+
+</html>
